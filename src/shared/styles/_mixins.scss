@@ -1,0 +1,66 @@
+// Shared style blocks. Colours stay in CSS variables (see global.scss) so a
+// runtime theme switch keeps working; mixins only hold repeated structure.
+
+$breakpoints: (
+  sm: 640px,
+  md: 860px,
+  lg: 1100px,
+);
+
+// Styles for screens narrower than $size.
+@mixin breakpoint($size) {
+  @media (max-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+// One visible keyboard focus outline everywhere.
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}
+
+// Ellipsis after $lines lines.
+@mixin truncate($lines: 1) {
+  overflow: hidden;
+  @if $lines == 1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  } @else {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines;
+    -webkit-box-orient: vertical;
+  }
+}
+
+// Rounded outline pill with a dot, in one colour.
+@mixin status-pill($color) {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 9px;
+  border: 1px solid $color;
+  border-radius: 999px;
+  color: $color;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+}
+
+// White panel with border and radius.
+@mixin card-surface($padding: 0) {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: $padding;
+}

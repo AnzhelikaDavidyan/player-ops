@@ -16,7 +16,14 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* Path alias: import from '@/features/...' instead of '../../..' */
+    "paths": { "@/*": ["./src/*"] },
+
     /* Linting */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,

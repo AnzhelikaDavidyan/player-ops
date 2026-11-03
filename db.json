@@ -1,0 +1,4397 @@
+{
+  "players": [
+    {
+      "id": "PL-104382",
+      "username": "luckyfox_92",
+      "email": "luckyfox.92@proton.me",
+      "country": "DE",
+      "status": "Active",
+      "vipTier": "Gold",
+      "balance": 3323.18,
+      "riskScore": 82,
+      "registeredAt": "2026-09-13",
+      "lastLoginAt": "2026-11-01T19:00:00.000Z",
+      "depositsTotal": 12080,
+      "netLoss": 2263,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-104709",
+      "username": "stellarfalcon_98",
+      "email": "stellarfalcon.98@proton.me",
+      "country": "DK",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 3294.76,
+      "riskScore": 14,
+      "registeredAt": "2024-05-31",
+      "lastLoginAt": "2026-11-01T13:00:00.000Z",
+      "depositsTotal": 14130,
+      "netLoss": 2887,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-104833",
+      "username": "arcticpike_26",
+      "email": "arcticpike.26@mail.de",
+      "country": "BR",
+      "status": "Active",
+      "vipTier": "Gold",
+      "balance": 2444.06,
+      "riskScore": 64,
+      "registeredAt": "2026-07-25",
+      "lastLoginAt": "2026-11-01T04:00:00.000Z",
+      "depositsTotal": 10400,
+      "netLoss": 4276,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-105058",
+      "username": "stellarcomet_51",
+      "email": "stellarcomet.51@gmail.com",
+      "country": "SE",
+      "status": "Suspended",
+      "vipTier": "Silver",
+      "balance": 325.81,
+      "riskScore": 13,
+      "registeredAt": "2025-10-18",
+      "lastLoginAt": "2026-11-02T07:00:00.000Z",
+      "depositsTotal": 21370,
+      "netLoss": 12633,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-105264",
+      "username": "quietfalcon_60",
+      "email": "quietfalcon.60@gmx.at",
+      "country": "IE",
+      "status": "Active",
+      "vipTier": "Gold",
+      "balance": 3144.02,
+      "riskScore": 18,
+      "registeredAt": "2025-12-30",
+      "lastLoginAt": "2026-11-03T04:00:00.000Z",
+      "depositsTotal": 14400,
+      "netLoss": 6801,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-105536",
+      "username": "wildraven_27",
+      "email": "wildraven.27@gmx.at",
+      "country": "SE",
+      "status": "Closed",
+      "vipTier": "Gold",
+      "balance": 2378.54,
+      "riskScore": 0,
+      "registeredAt": "2026-07-27",
+      "lastLoginAt": "2026-11-01T14:00:00.000Z",
+      "depositsTotal": 2560,
+      "netLoss": 1448,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-105686",
+      "username": "wildrook_35",
+      "email": "wildrook.35@gmail.com",
+      "country": "CA",
+      "status": "Active",
+      "vipTier": "Platinum",
+      "balance": 430.97,
+      "riskScore": 29,
+      "registeredAt": "2026-03-28",
+      "lastLoginAt": "2026-11-01T21:00:00.000Z",
+      "depositsTotal": 11700,
+      "netLoss": 2948,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-105878",
+      "username": "luckywolf_89",
+      "email": "luckywolf.89@mail.de",
+      "country": "AT",
+      "status": "Pending KYC",
+      "vipTier": "Gold",
+      "balance": 2426.38,
+      "riskScore": 18,
+      "registeredAt": "2025-01-06",
+      "lastLoginAt": "2026-11-02T13:00:00.000Z",
+      "depositsTotal": 20450,
+      "netLoss": 3931,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-106097",
+      "username": "urbanrook_43",
+      "email": "urbanrook.43@proton.me",
+      "country": "IE",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 1766.61,
+      "riskScore": 21,
+      "registeredAt": "2026-08-19",
+      "lastLoginAt": "2026-10-30T13:00:00.000Z",
+      "depositsTotal": 4790,
+      "netLoss": 2423,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-106317",
+      "username": "crimsonfox_75",
+      "email": "crimsonfox.75@mail.de",
+      "country": "DE",
+      "status": "Suspended",
+      "vipTier": "Bronze",
+      "balance": 2494.45,
+      "riskScore": 1,
+      "registeredAt": "2024-06-09",
+      "lastLoginAt": "2026-10-30T16:00:00.000Z",
+      "depositsTotal": 20660,
+      "netLoss": 8000,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-106632",
+      "username": "midnightwolf_70",
+      "email": "midnightwolf.70@gmx.at",
+      "country": "AT",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 797.42,
+      "riskScore": 2,
+      "registeredAt": "2026-06-16",
+      "lastLoginAt": "2026-10-31T14:00:00.000Z",
+      "depositsTotal": 12740,
+      "netLoss": 8636,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-106854",
+      "username": "crimsonorca_73",
+      "email": "crimsonorca.73@web.de",
+      "country": "NZ",
+      "status": "Pending KYC",
+      "vipTier": "Bronze",
+      "balance": 4323.29,
+      "riskScore": 14,
+      "registeredAt": "2024-11-13",
+      "lastLoginAt": "2026-10-31T19:00:00.000Z",
+      "depositsTotal": 2470,
+      "netLoss": 572,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-107061",
+      "username": "royalrook_83",
+      "email": "royalrook.83@gmx.at",
+      "country": "DK",
+      "status": "Active",
+      "vipTier": "Gold",
+      "balance": 3467.47,
+      "riskScore": 2,
+      "registeredAt": "2025-07-15",
+      "lastLoginAt": "2026-11-03T06:00:00.000Z",
+      "depositsTotal": 11460,
+      "netLoss": 1903,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-107145",
+      "username": "velvetpike_62",
+      "email": "velvetpike.62@outlook.com",
+      "country": "DK",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 1937.03,
+      "riskScore": 81,
+      "registeredAt": "2024-07-10",
+      "lastLoginAt": "2026-11-03T01:00:00.000Z",
+      "depositsTotal": 4990,
+      "netLoss": 1455,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-107361",
+      "username": "arcticfalcon_30",
+      "email": "arcticfalcon.30@web.de",
+      "country": "SE",
+      "status": "Suspended",
+      "vipTier": "Bronze",
+      "balance": 1590.1,
+      "riskScore": 2,
+      "registeredAt": "2024-08-22",
+      "lastLoginAt": "2026-11-01T23:00:00.000Z",
+      "depositsTotal": 21510,
+      "netLoss": 6472,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-107566",
+      "username": "luckydice_89",
+      "email": "luckydice.89@proton.me",
+      "country": "CA",
+      "status": "Pending KYC",
+      "vipTier": "Bronze",
+      "balance": 3405.28,
+      "riskScore": 73,
+      "registeredAt": "2025-08-21",
+      "lastLoginAt": "2026-11-02T15:00:00.000Z",
+      "depositsTotal": 12400,
+      "netLoss": 8017,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-107809",
+      "username": "luckyrook_88",
+      "email": "luckyrook.88@gmail.com",
+      "country": "NO",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 776.52,
+      "riskScore": 90,
+      "registeredAt": "2026-10-18",
+      "lastLoginAt": "2026-11-02T22:00:00.000Z",
+      "depositsTotal": 3090,
+      "netLoss": 1856,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-108003",
+      "username": "stellarace_13",
+      "email": "stellarace.13@mail.de",
+      "country": "AT",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 4202.07,
+      "riskScore": 1,
+      "registeredAt": "2026-06-02",
+      "lastLoginAt": "2026-11-02T21:00:00.000Z",
+      "depositsTotal": 17370,
+      "netLoss": 3035,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-108271",
+      "username": "wildraven_59",
+      "email": "wildraven.59@gmx.at",
+      "country": "IE",
+      "status": "Pending KYC",
+      "vipTier": "Gold",
+      "balance": 549.22,
+      "riskScore": 44,
+      "registeredAt": "2025-12-12",
+      "lastLoginAt": "2026-11-02T13:00:00.000Z",
+      "depositsTotal": 16750,
+      "netLoss": 6660,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-108544",
+      "username": "crimsonjoker_51",
+      "email": "crimsonjoker.51@outlook.com",
+      "country": "NL",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 1809.24,
+      "riskScore": 1,
+      "registeredAt": "2026-04-03",
+      "lastLoginAt": "2026-11-02T02:00:00.000Z",
+      "depositsTotal": 5920,
+      "netLoss": 1203,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-108756",
+      "username": "silverraven_30",
+      "email": "silverraven.30@gmail.com",
+      "country": "FI",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 421.45,
+      "riskScore": 6,
+      "registeredAt": "2025-11-04",
+      "lastLoginAt": "2026-10-30T20:00:00.000Z",
+      "depositsTotal": 490,
+      "netLoss": 312,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-108945",
+      "username": "royaltiger_17",
+      "email": "royaltiger.17@gmail.com",
+      "country": "DK",
+      "status": "Self-excluded",
+      "vipTier": "Bronze",
+      "balance": 1833.13,
+      "riskScore": 18,
+      "registeredAt": "2024-06-06",
+      "lastLoginAt": "2026-10-30T22:00:00.000Z",
+      "depositsTotal": 14170,
+      "netLoss": 9442,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-109043",
+      "username": "arcticwolf_15",
+      "email": "arcticwolf.15@web.de",
+      "country": "DK",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 1699.32,
+      "riskScore": 3,
+      "registeredAt": "2025-01-16",
+      "lastLoginAt": "2026-11-02T12:00:00.000Z",
+      "depositsTotal": 15520,
+      "netLoss": 6928,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-109393",
+      "username": "quietfox_84",
+      "email": "quietfox.84@outlook.com",
+      "country": "BR",
+      "status": "Active",
+      "vipTier": "Bronze",
+      "balance": 1294.56,
+      "riskScore": 37,
+      "registeredAt": "2025-03-29",
+      "lastLoginAt": "2026-11-02T13:00:00.000Z",
+      "depositsTotal": 6640,
+      "netLoss": 3784,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-109569",
+      "username": "stellarwolf_67",
+      "email": "stellarwolf.67@mail.de",
+      "country": "NZ",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 1004.34,
+      "riskScore": 39,
+      "registeredAt": "2025-02-18",
+      "lastLoginAt": "2026-11-01T17:00:00.000Z",
+      "depositsTotal": 12640,
+      "netLoss": 4314,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-109764",
+      "username": "crimsonraven_19",
+      "email": "crimsonraven.19@mail.de",
+      "country": "NL",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 4290.81,
+      "riskScore": 9,
+      "registeredAt": "2026-07-19",
+      "lastLoginAt": "2026-10-31T05:00:00.000Z",
+      "depositsTotal": 1950,
+      "netLoss": 347,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-109993",
+      "username": "urbanrook_26",
+      "email": "urbanrook.26@gmail.com",
+      "country": "AT",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 3541.64,
+      "riskScore": 1,
+      "registeredAt": "2025-10-09",
+      "lastLoginAt": "2026-11-03T01:00:00.000Z",
+      "depositsTotal": 6800,
+      "netLoss": 2759,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-110154",
+      "username": "luckyace_16",
+      "email": "luckyace.16@web.de",
+      "country": "DK",
+      "status": "Active",
+      "vipTier": "Silver",
+      "balance": 816.77,
+      "riskScore": 3,
+      "registeredAt": "2025-12-15",
+      "lastLoginAt": "2026-11-03T04:00:00.000Z",
+      "depositsTotal": 3630,
+      "netLoss": 881,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-110445",
+      "username": "arcticdice_64",
+      "email": "arcticdice.64@gmail.com",
+      "country": "NO",
+      "status": "Suspended",
+      "vipTier": "Bronze",
+      "balance": 2151.66,
+      "riskScore": 54,
+      "registeredAt": "2024-12-12",
+      "lastLoginAt": "2026-11-03T09:00:00.000Z",
+      "depositsTotal": 16280,
+      "netLoss": 6456,
+      "currency": "EUR"
+    },
+    {
+      "id": "PL-110528",
+      "username": "silverspin_18",
+      "email": "silverspin.18@proton.me",
+      "country": "DE",
+      "status": "Active",
+      "vipTier": "Gold",
+      "balance": 1546.2,
+      "riskScore": 42,
+      "registeredAt": "2025-02-04",
+      "lastLoginAt": "2026-10-31T22:00:00.000Z",
+      "depositsTotal": 22340,
+      "netLoss": 12737,
+      "currency": "EUR"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TX-104382-1",
+      "playerId": "PL-104382",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-2",
+      "playerId": "PL-104382",
+      "type": "Win",
+      "amount": 29.18,
+      "status": "Failed",
+      "method": "Live casino",
+      "createdAt": "2026-11-01T15:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-3",
+      "playerId": "PL-104382",
+      "type": "Bet",
+      "amount": 55.85,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-01T07:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-4",
+      "playerId": "PL-104382",
+      "type": "Win",
+      "amount": 58.16,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T22:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-5",
+      "playerId": "PL-104382",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-28T17:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-6",
+      "playerId": "PL-104382",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-26T07:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-7",
+      "playerId": "PL-104382",
+      "type": "Withdrawal",
+      "amount": 599,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-24T09:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-8",
+      "playerId": "PL-104382",
+      "type": "Win",
+      "amount": 17.73,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T06:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-9",
+      "playerId": "PL-104382",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-22T19:52:00.000Z"
+    },
+    {
+      "id": "TX-104382-10",
+      "playerId": "PL-104382",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-21T10:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-1",
+      "playerId": "PL-104709",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-2",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 65.15,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-02T22:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-3",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 35.27,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-02T03:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-4",
+      "playerId": "PL-104709",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-31T02:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-5",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 16.63,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-28T22:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-6",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 8,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T10:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-7",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 19.61,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T04:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-8",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 47.15,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-23T16:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-9",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 62.16,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-23T08:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-10",
+      "playerId": "PL-104709",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-22T22:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-11",
+      "playerId": "PL-104709",
+      "type": "Win",
+      "amount": 77.18,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-22T06:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-12",
+      "playerId": "PL-104709",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-20T21:52:00.000Z"
+    },
+    {
+      "id": "TX-104709-13",
+      "playerId": "PL-104709",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-19T03:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-1",
+      "playerId": "PL-104833",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-2",
+      "playerId": "PL-104833",
+      "type": "Withdrawal",
+      "amount": 369,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-02T20:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-3",
+      "playerId": "PL-104833",
+      "type": "Withdrawal",
+      "amount": 133,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-01T23:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-4",
+      "playerId": "PL-104833",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-01T20:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-5",
+      "playerId": "PL-104833",
+      "type": "Win",
+      "amount": 25.46,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-31T01:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-6",
+      "playerId": "PL-104833",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-28T14:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-7",
+      "playerId": "PL-104833",
+      "type": "Win",
+      "amount": 65.44,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-26T09:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-8",
+      "playerId": "PL-104833",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-23T22:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-9",
+      "playerId": "PL-104833",
+      "type": "Win",
+      "amount": 63.22,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-22T08:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-10",
+      "playerId": "PL-104833",
+      "type": "Bet",
+      "amount": 34.72,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-21T19:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-11",
+      "playerId": "PL-104833",
+      "type": "Bet",
+      "amount": 23.37,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-20T13:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-12",
+      "playerId": "PL-104833",
+      "type": "Withdrawal",
+      "amount": 149,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-20T11:52:00.000Z"
+    },
+    {
+      "id": "TX-104833-13",
+      "playerId": "PL-104833",
+      "type": "Bet",
+      "amount": 53.41,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-19T02:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-1",
+      "playerId": "PL-105058",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-2",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 2.97,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-02T05:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-3",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 43.88,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-10-31T17:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-4",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 37.1,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T07:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-5",
+      "playerId": "PL-105058",
+      "type": "Win",
+      "amount": 57.39,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-29T11:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-6",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 77.81,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-28T06:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-7",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 66.2,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-27T06:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-8",
+      "playerId": "PL-105058",
+      "type": "Win",
+      "amount": 19.82,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T07:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-9",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 41.15,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-25T15:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-10",
+      "playerId": "PL-105058",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-24T15:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-11",
+      "playerId": "PL-105058",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-22T19:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-12",
+      "playerId": "PL-105058",
+      "type": "Bet",
+      "amount": 38.38,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-10-20T10:52:00.000Z"
+    },
+    {
+      "id": "TX-105058-13",
+      "playerId": "PL-105058",
+      "type": "Win",
+      "amount": 76.74,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-20T08:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-1",
+      "playerId": "PL-105264",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-2",
+      "playerId": "PL-105264",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-02T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-3",
+      "playerId": "PL-105264",
+      "type": "Bet",
+      "amount": 23.24,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-31T21:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-4",
+      "playerId": "PL-105264",
+      "type": "Win",
+      "amount": 68.75,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-31T16:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-5",
+      "playerId": "PL-105264",
+      "type": "Bet",
+      "amount": 51.67,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-29T18:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-6",
+      "playerId": "PL-105264",
+      "type": "Bet",
+      "amount": 24,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-29T00:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-7",
+      "playerId": "PL-105264",
+      "type": "Bet",
+      "amount": 27.56,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T21:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-8",
+      "playerId": "PL-105264",
+      "type": "Bet",
+      "amount": 35.37,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T15:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-9",
+      "playerId": "PL-105264",
+      "type": "Win",
+      "amount": 20.9,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-25T19:52:00.000Z"
+    },
+    {
+      "id": "TX-105264-10",
+      "playerId": "PL-105264",
+      "type": "Win",
+      "amount": 62.73,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-24T10:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-1",
+      "playerId": "PL-105536",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-2",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 48.12,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-03T02:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-3",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 52.88,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-02T20:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-4",
+      "playerId": "PL-105536",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-02T18:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-5",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 28.79,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-02T07:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-6",
+      "playerId": "PL-105536",
+      "type": "Withdrawal",
+      "amount": 592,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-01T00:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-7",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 77.4,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T01:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-8",
+      "playerId": "PL-105536",
+      "type": "Win",
+      "amount": 5.26,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-28T04:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-9",
+      "playerId": "PL-105536",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-27T05:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-10",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 12.25,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T19:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-11",
+      "playerId": "PL-105536",
+      "type": "Bet",
+      "amount": 77.44,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-24T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-12",
+      "playerId": "PL-105536",
+      "type": "Win",
+      "amount": 31.22,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-23T01:52:00.000Z"
+    },
+    {
+      "id": "TX-105536-13",
+      "playerId": "PL-105536",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-20T20:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-1",
+      "playerId": "PL-105686",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-2",
+      "playerId": "PL-105686",
+      "type": "Withdrawal",
+      "amount": 330,
+      "status": "Pending",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T11:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-3",
+      "playerId": "PL-105686",
+      "type": "Bet",
+      "amount": 75.34,
+      "status": "Failed",
+      "method": "Football",
+      "createdAt": "2026-11-03T00:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-4",
+      "playerId": "PL-105686",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-02T06:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-5",
+      "playerId": "PL-105686",
+      "type": "Win",
+      "amount": 55.07,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-02T05:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-6",
+      "playerId": "PL-105686",
+      "type": "Win",
+      "amount": 64.98,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-31T22:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-7",
+      "playerId": "PL-105686",
+      "type": "Bet",
+      "amount": 71.86,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T02:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-8",
+      "playerId": "PL-105686",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-28T11:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-9",
+      "playerId": "PL-105686",
+      "type": "Win",
+      "amount": 76.23,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T12:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-10",
+      "playerId": "PL-105686",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-27T00:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-11",
+      "playerId": "PL-105686",
+      "type": "Withdrawal",
+      "amount": 158,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-26T15:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-12",
+      "playerId": "PL-105686",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-24T17:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-13",
+      "playerId": "PL-105686",
+      "type": "Win",
+      "amount": 60.66,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T04:52:00.000Z"
+    },
+    {
+      "id": "TX-105686-14",
+      "playerId": "PL-105686",
+      "type": "Bet",
+      "amount": 38.08,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-23T17:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-1",
+      "playerId": "PL-105878",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-2",
+      "playerId": "PL-105878",
+      "type": "Bet",
+      "amount": 17.15,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-01T04:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-3",
+      "playerId": "PL-105878",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-31T01:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-4",
+      "playerId": "PL-105878",
+      "type": "Bet",
+      "amount": 49.85,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T12:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-5",
+      "playerId": "PL-105878",
+      "type": "Win",
+      "amount": 56.1,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-30T03:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-6",
+      "playerId": "PL-105878",
+      "type": "Win",
+      "amount": 13.19,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-27T19:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-7",
+      "playerId": "PL-105878",
+      "type": "Withdrawal",
+      "amount": 514,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-26T06:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-8",
+      "playerId": "PL-105878",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-23T23:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-9",
+      "playerId": "PL-105878",
+      "type": "Bet",
+      "amount": 65.99,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-23T22:52:00.000Z"
+    },
+    {
+      "id": "TX-105878-10",
+      "playerId": "PL-105878",
+      "type": "Bet",
+      "amount": 15.88,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-23T06:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-1",
+      "playerId": "PL-106097",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-2",
+      "playerId": "PL-106097",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-02T00:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-3",
+      "playerId": "PL-106097",
+      "type": "Bet",
+      "amount": 7.55,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-31T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-4",
+      "playerId": "PL-106097",
+      "type": "Win",
+      "amount": 68.82,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T10:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-5",
+      "playerId": "PL-106097",
+      "type": "Win",
+      "amount": 34.36,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T22:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-6",
+      "playerId": "PL-106097",
+      "type": "Bet",
+      "amount": 63.04,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T10:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-7",
+      "playerId": "PL-106097",
+      "type": "Bet",
+      "amount": 60.84,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-25T15:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-8",
+      "playerId": "PL-106097",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-25T04:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-9",
+      "playerId": "PL-106097",
+      "type": "Bet",
+      "amount": 79.47,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-23T03:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-10",
+      "playerId": "PL-106097",
+      "type": "Win",
+      "amount": 75.85,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-21T03:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-11",
+      "playerId": "PL-106097",
+      "type": "Bet",
+      "amount": 63.09,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-20T10:52:00.000Z"
+    },
+    {
+      "id": "TX-106097-12",
+      "playerId": "PL-106097",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-18T05:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-1",
+      "playerId": "PL-106317",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Failed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-2",
+      "playerId": "PL-106317",
+      "type": "Win",
+      "amount": 38.52,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-03T02:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-3",
+      "playerId": "PL-106317",
+      "type": "Win",
+      "amount": 71.2,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-31T15:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-4",
+      "playerId": "PL-106317",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-31T05:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-5",
+      "playerId": "PL-106317",
+      "type": "Win",
+      "amount": 65.15,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T00:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-6",
+      "playerId": "PL-106317",
+      "type": "Win",
+      "amount": 16.07,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-28T10:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-7",
+      "playerId": "PL-106317",
+      "type": "Withdrawal",
+      "amount": 440,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-27T00:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-8",
+      "playerId": "PL-106317",
+      "type": "Win",
+      "amount": 10.64,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T20:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-9",
+      "playerId": "PL-106317",
+      "type": "Withdrawal",
+      "amount": 544,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-22T18:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-10",
+      "playerId": "PL-106317",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-22T12:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-11",
+      "playerId": "PL-106317",
+      "type": "Bet",
+      "amount": 29.39,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-22T11:52:00.000Z"
+    },
+    {
+      "id": "TX-106317-12",
+      "playerId": "PL-106317",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-21T16:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-1",
+      "playerId": "PL-106632",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-2",
+      "playerId": "PL-106632",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-02T16:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-3",
+      "playerId": "PL-106632",
+      "type": "Withdrawal",
+      "amount": 253,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-01T20:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-4",
+      "playerId": "PL-106632",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-31T03:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-5",
+      "playerId": "PL-106632",
+      "type": "Bet",
+      "amount": 69.27,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T11:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-6",
+      "playerId": "PL-106632",
+      "type": "Win",
+      "amount": 13.97,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T23:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-7",
+      "playerId": "PL-106632",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-26T21:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-8",
+      "playerId": "PL-106632",
+      "type": "Bet",
+      "amount": 22.9,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T11:52:00.000Z"
+    },
+    {
+      "id": "TX-106632-9",
+      "playerId": "PL-106632",
+      "type": "Win",
+      "amount": 48.99,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T08:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-1",
+      "playerId": "PL-106854",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-2",
+      "playerId": "PL-106854",
+      "type": "Bet",
+      "amount": 78.86,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-11-02T02:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-3",
+      "playerId": "PL-106854",
+      "type": "Win",
+      "amount": 12.01,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-30T23:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-4",
+      "playerId": "PL-106854",
+      "type": "Bet",
+      "amount": 6.43,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T14:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-5",
+      "playerId": "PL-106854",
+      "type": "Win",
+      "amount": 62.05,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T02:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-6",
+      "playerId": "PL-106854",
+      "type": "Withdrawal",
+      "amount": 604,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-28T23:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-7",
+      "playerId": "PL-106854",
+      "type": "Win",
+      "amount": 10.38,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-28T15:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-8",
+      "playerId": "PL-106854",
+      "type": "Bet",
+      "amount": 18.05,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T17:52:00.000Z"
+    },
+    {
+      "id": "TX-106854-9",
+      "playerId": "PL-106854",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Failed",
+      "method": "Trustly",
+      "createdAt": "2026-10-25T16:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-1",
+      "playerId": "PL-107061",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-2",
+      "playerId": "PL-107061",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-01T06:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-3",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 16.82,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-30T17:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-4",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 34.58,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-29T16:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-5",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 34.81,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-28T06:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-6",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 37,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-26T08:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-7",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 37.88,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-25T04:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-8",
+      "playerId": "PL-107061",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-23T03:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-9",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 31.66,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-20T22:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-10",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 6.73,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-20T02:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-11",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 63.62,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-18T01:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-12",
+      "playerId": "PL-107061",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-16T20:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-13",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 17.3,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-14T09:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-14",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 66.49,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-13T07:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-15",
+      "playerId": "PL-107061",
+      "type": "Bet",
+      "amount": 70.65,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-11T01:52:00.000Z"
+    },
+    {
+      "id": "TX-107061-16",
+      "playerId": "PL-107061",
+      "type": "Win",
+      "amount": 55.61,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-08T18:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-1",
+      "playerId": "PL-107145",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-2",
+      "playerId": "PL-107145",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-11-01T13:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-3",
+      "playerId": "PL-107145",
+      "type": "Withdrawal",
+      "amount": 62,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-30T17:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-4",
+      "playerId": "PL-107145",
+      "type": "Bet",
+      "amount": 43.85,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-28T06:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-5",
+      "playerId": "PL-107145",
+      "type": "Bet",
+      "amount": 26.08,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-25T22:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-6",
+      "playerId": "PL-107145",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-25T07:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-7",
+      "playerId": "PL-107145",
+      "type": "Withdrawal",
+      "amount": 283,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-23T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-8",
+      "playerId": "PL-107145",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-22T13:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-9",
+      "playerId": "PL-107145",
+      "type": "Withdrawal",
+      "amount": 74,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-20T11:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-10",
+      "playerId": "PL-107145",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-18T23:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-11",
+      "playerId": "PL-107145",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-17T11:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-12",
+      "playerId": "PL-107145",
+      "type": "Win",
+      "amount": 21.04,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-16T07:52:00.000Z"
+    },
+    {
+      "id": "TX-107145-13",
+      "playerId": "PL-107145",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Failed",
+      "method": "Trustly",
+      "createdAt": "2026-10-15T09:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-1",
+      "playerId": "PL-107361",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-2",
+      "playerId": "PL-107361",
+      "type": "Bet",
+      "amount": 71.85,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-02T23:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-3",
+      "playerId": "PL-107361",
+      "type": "Bet",
+      "amount": 78.84,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-31T22:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-4",
+      "playerId": "PL-107361",
+      "type": "Bet",
+      "amount": 68.49,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-29T22:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-5",
+      "playerId": "PL-107361",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-27T11:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-6",
+      "playerId": "PL-107361",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-27T09:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-7",
+      "playerId": "PL-107361",
+      "type": "Win",
+      "amount": 56.37,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T02:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-8",
+      "playerId": "PL-107361",
+      "type": "Win",
+      "amount": 16.66,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T00:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-9",
+      "playerId": "PL-107361",
+      "type": "Win",
+      "amount": 8.55,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-10-21T18:52:00.000Z"
+    },
+    {
+      "id": "TX-107361-10",
+      "playerId": "PL-107361",
+      "type": "Win",
+      "amount": 35.84,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-20T20:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-1",
+      "playerId": "PL-107566",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-2",
+      "playerId": "PL-107566",
+      "type": "Bet",
+      "amount": 6.19,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-01T08:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-3",
+      "playerId": "PL-107566",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-11-01T03:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-4",
+      "playerId": "PL-107566",
+      "type": "Win",
+      "amount": 15.21,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-01T01:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-5",
+      "playerId": "PL-107566",
+      "type": "Bet",
+      "amount": 62.37,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-31T06:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-6",
+      "playerId": "PL-107566",
+      "type": "Win",
+      "amount": 23.36,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-28T19:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-7",
+      "playerId": "PL-107566",
+      "type": "Bet",
+      "amount": 60.77,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-27T15:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-8",
+      "playerId": "PL-107566",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-26T15:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-9",
+      "playerId": "PL-107566",
+      "type": "Bet",
+      "amount": 80.89,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-25T18:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-10",
+      "playerId": "PL-107566",
+      "type": "Withdrawal",
+      "amount": 229,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-23T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107566-11",
+      "playerId": "PL-107566",
+      "type": "Bet",
+      "amount": 35.85,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-21T02:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-1",
+      "playerId": "PL-107809",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-2",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 68.85,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-03T06:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-3",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 54.9,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-11-02T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-4",
+      "playerId": "PL-107809",
+      "type": "Win",
+      "amount": 55.61,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-31T17:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-5",
+      "playerId": "PL-107809",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-31T14:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-6",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 49.94,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-29T19:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-7",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 72.3,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-28T21:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-8",
+      "playerId": "PL-107809",
+      "type": "Withdrawal",
+      "amount": 131,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-28T03:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-9",
+      "playerId": "PL-107809",
+      "type": "Win",
+      "amount": 48.03,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T17:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-10",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 68.86,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T07:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-11",
+      "playerId": "PL-107809",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-26T05:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-12",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 42.37,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-24T05:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-13",
+      "playerId": "PL-107809",
+      "type": "Bet",
+      "amount": 26.6,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-22T11:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-14",
+      "playerId": "PL-107809",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-20T00:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-15",
+      "playerId": "PL-107809",
+      "type": "Win",
+      "amount": 11.04,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-18T02:52:00.000Z"
+    },
+    {
+      "id": "TX-107809-16",
+      "playerId": "PL-107809",
+      "type": "Win",
+      "amount": 10.08,
+      "status": "Failed",
+      "method": "Live casino",
+      "createdAt": "2026-10-17T10:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-1",
+      "playerId": "PL-108003",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-2",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 30.74,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-03T10:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-3",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 18.37,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-01T12:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-4",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 40.59,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T00:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-5",
+      "playerId": "PL-108003",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-28T10:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-6",
+      "playerId": "PL-108003",
+      "type": "Bet",
+      "amount": 5.4,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-28T09:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-7",
+      "playerId": "PL-108003",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-26T00:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-8",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 19.08,
+      "status": "Failed",
+      "method": "Football",
+      "createdAt": "2026-10-23T18:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-9",
+      "playerId": "PL-108003",
+      "type": "Bet",
+      "amount": 41.29,
+      "status": "Failed",
+      "method": "Football",
+      "createdAt": "2026-10-22T18:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-10",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 72.84,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-20T22:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-11",
+      "playerId": "PL-108003",
+      "type": "Win",
+      "amount": 56.8,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-19T13:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-12",
+      "playerId": "PL-108003",
+      "type": "Withdrawal",
+      "amount": 156,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-19T03:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-13",
+      "playerId": "PL-108003",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-17T00:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-14",
+      "playerId": "PL-108003",
+      "type": "Bet",
+      "amount": 51.3,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-15T10:52:00.000Z"
+    },
+    {
+      "id": "TX-108003-15",
+      "playerId": "PL-108003",
+      "type": "Bet",
+      "amount": 75.44,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-14T15:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-1",
+      "playerId": "PL-108271",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-2",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 17.73,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-11-01T08:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-3",
+      "playerId": "PL-108271",
+      "type": "Withdrawal",
+      "amount": 356,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-30T06:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-4",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 42.95,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-28T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-5",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 35.53,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T05:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-6",
+      "playerId": "PL-108271",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-25T08:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-7",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 9.31,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-23T16:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-8",
+      "playerId": "PL-108271",
+      "type": "Win",
+      "amount": 39.48,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-22T16:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-9",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 59.35,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-21T16:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-10",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 16.9,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-19T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108271-11",
+      "playerId": "PL-108271",
+      "type": "Bet",
+      "amount": 12,
+      "status": "Failed",
+      "method": "Tennis",
+      "createdAt": "2026-10-19T04:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-1",
+      "playerId": "PL-108544",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-2",
+      "playerId": "PL-108544",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-11-01T04:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-3",
+      "playerId": "PL-108544",
+      "type": "Win",
+      "amount": 53.06,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T21:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-4",
+      "playerId": "PL-108544",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-28T09:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-5",
+      "playerId": "PL-108544",
+      "type": "Win",
+      "amount": 29.98,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T00:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-6",
+      "playerId": "PL-108544",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-25T11:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-7",
+      "playerId": "PL-108544",
+      "type": "Bet",
+      "amount": 51.2,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-24T01:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-8",
+      "playerId": "PL-108544",
+      "type": "Bet",
+      "amount": 19.41,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-23T01:52:00.000Z"
+    },
+    {
+      "id": "TX-108544-9",
+      "playerId": "PL-108544",
+      "type": "Bet",
+      "amount": 7.6,
+      "status": "Failed",
+      "method": "Tennis",
+      "createdAt": "2026-10-21T07:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-1",
+      "playerId": "PL-108756",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-2",
+      "playerId": "PL-108756",
+      "type": "Withdrawal",
+      "amount": 108,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-02T02:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-3",
+      "playerId": "PL-108756",
+      "type": "Bet",
+      "amount": 28.51,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-01T09:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-4",
+      "playerId": "PL-108756",
+      "type": "Withdrawal",
+      "amount": 584,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-31T09:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-5",
+      "playerId": "PL-108756",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-30T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-6",
+      "playerId": "PL-108756",
+      "type": "Win",
+      "amount": 6.16,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-29T21:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-7",
+      "playerId": "PL-108756",
+      "type": "Withdrawal",
+      "amount": 647,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-28T09:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-8",
+      "playerId": "PL-108756",
+      "type": "Bet",
+      "amount": 28.78,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T11:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-9",
+      "playerId": "PL-108756",
+      "type": "Win",
+      "amount": 50.41,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-24T01:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-10",
+      "playerId": "PL-108756",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-22T23:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-11",
+      "playerId": "PL-108756",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-22T00:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-12",
+      "playerId": "PL-108756",
+      "type": "Win",
+      "amount": 37,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-20T19:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-13",
+      "playerId": "PL-108756",
+      "type": "Win",
+      "amount": 19.47,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-19T12:52:00.000Z"
+    },
+    {
+      "id": "TX-108756-14",
+      "playerId": "PL-108756",
+      "type": "Bet",
+      "amount": 25.02,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-19T06:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-1",
+      "playerId": "PL-108945",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-2",
+      "playerId": "PL-108945",
+      "type": "Bet",
+      "amount": 34.56,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-02T01:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-3",
+      "playerId": "PL-108945",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-30T15:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-4",
+      "playerId": "PL-108945",
+      "type": "Withdrawal",
+      "amount": 175,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-29T08:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-5",
+      "playerId": "PL-108945",
+      "type": "Win",
+      "amount": 15.56,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-27T22:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-6",
+      "playerId": "PL-108945",
+      "type": "Withdrawal",
+      "amount": 80,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-25T13:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-7",
+      "playerId": "PL-108945",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-24T05:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-8",
+      "playerId": "PL-108945",
+      "type": "Withdrawal",
+      "amount": 263,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-23T11:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-9",
+      "playerId": "PL-108945",
+      "type": "Bet",
+      "amount": 36.44,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-22T16:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-10",
+      "playerId": "PL-108945",
+      "type": "Bet",
+      "amount": 58.65,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-21T10:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-11",
+      "playerId": "PL-108945",
+      "type": "Bet",
+      "amount": 79.49,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-21T08:52:00.000Z"
+    },
+    {
+      "id": "TX-108945-12",
+      "playerId": "PL-108945",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-20T22:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-1",
+      "playerId": "PL-109043",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-2",
+      "playerId": "PL-109043",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-01T12:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-3",
+      "playerId": "PL-109043",
+      "type": "Bet",
+      "amount": 2.52,
+      "status": "Failed",
+      "method": "Football",
+      "createdAt": "2026-11-01T00:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-4",
+      "playerId": "PL-109043",
+      "type": "Bet",
+      "amount": 63.73,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-31T18:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-5",
+      "playerId": "PL-109043",
+      "type": "Win",
+      "amount": 19.64,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-31T15:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-6",
+      "playerId": "PL-109043",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-29T16:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-7",
+      "playerId": "PL-109043",
+      "type": "Win",
+      "amount": 31.36,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-27T19:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-8",
+      "playerId": "PL-109043",
+      "type": "Bet",
+      "amount": 21.15,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T08:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-9",
+      "playerId": "PL-109043",
+      "type": "Bet",
+      "amount": 47.63,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T06:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-10",
+      "playerId": "PL-109043",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-25T08:52:00.000Z"
+    },
+    {
+      "id": "TX-109043-11",
+      "playerId": "PL-109043",
+      "type": "Withdrawal",
+      "amount": 211,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-23T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-1",
+      "playerId": "PL-109393",
+      "type": "Deposit",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-2",
+      "playerId": "PL-109393",
+      "type": "Withdrawal",
+      "amount": 620,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-01T13:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-3",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 56.1,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-30T10:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-4",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 55.35,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-28T04:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-5",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 64.12,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-25T20:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-6",
+      "playerId": "PL-109393",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-24T01:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-7",
+      "playerId": "PL-109393",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Failed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-23T22:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-8",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 40.22,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-23T06:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-9",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 43.63,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-21T07:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-10",
+      "playerId": "PL-109393",
+      "type": "Bonus",
+      "amount": 10,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-20T09:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-11",
+      "playerId": "PL-109393",
+      "type": "Withdrawal",
+      "amount": 354,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-18T22:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-12",
+      "playerId": "PL-109393",
+      "type": "Win",
+      "amount": 50.41,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-16T15:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-13",
+      "playerId": "PL-109393",
+      "type": "Win",
+      "amount": 31.61,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-16T04:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-14",
+      "playerId": "PL-109393",
+      "type": "Bet",
+      "amount": 71.22,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-14T17:52:00.000Z"
+    },
+    {
+      "id": "TX-109393-15",
+      "playerId": "PL-109393",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-14T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-1",
+      "playerId": "PL-109569",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-2",
+      "playerId": "PL-109569",
+      "type": "Bet",
+      "amount": 59.09,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-11-02T23:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-3",
+      "playerId": "PL-109569",
+      "type": "Win",
+      "amount": 14.64,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-01T12:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-4",
+      "playerId": "PL-109569",
+      "type": "Win",
+      "amount": 52.09,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-30T23:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-5",
+      "playerId": "PL-109569",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-29T03:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-6",
+      "playerId": "PL-109569",
+      "type": "Bet",
+      "amount": 23.58,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-26T21:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-7",
+      "playerId": "PL-109569",
+      "type": "Win",
+      "amount": 20.61,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-25T23:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-8",
+      "playerId": "PL-109569",
+      "type": "Bet",
+      "amount": 28.59,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T03:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-9",
+      "playerId": "PL-109569",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-23T05:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-10",
+      "playerId": "PL-109569",
+      "type": "Bet",
+      "amount": 35.44,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-20T17:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-11",
+      "playerId": "PL-109569",
+      "type": "Win",
+      "amount": 37.29,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-19T11:52:00.000Z"
+    },
+    {
+      "id": "TX-109569-12",
+      "playerId": "PL-109569",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-17T11:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-1",
+      "playerId": "PL-109764",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-2",
+      "playerId": "PL-109764",
+      "type": "Win",
+      "amount": 78.41,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-02T16:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-3",
+      "playerId": "PL-109764",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-11-01T15:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-4",
+      "playerId": "PL-109764",
+      "type": "Bet",
+      "amount": 23.21,
+      "status": "Failed",
+      "method": "Slots",
+      "createdAt": "2026-11-01T12:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-5",
+      "playerId": "PL-109764",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-31T00:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-6",
+      "playerId": "PL-109764",
+      "type": "Bet",
+      "amount": 40.45,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-28T18:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-7",
+      "playerId": "PL-109764",
+      "type": "Bet",
+      "amount": 78.57,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-27T09:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-8",
+      "playerId": "PL-109764",
+      "type": "Deposit",
+      "amount": 100,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-27T06:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-9",
+      "playerId": "PL-109764",
+      "type": "Bet",
+      "amount": 22.55,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-24T18:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-10",
+      "playerId": "PL-109764",
+      "type": "Withdrawal",
+      "amount": 121,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-22T11:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-11",
+      "playerId": "PL-109764",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-22T09:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-12",
+      "playerId": "PL-109764",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-22T06:52:00.000Z"
+    },
+    {
+      "id": "TX-109764-13",
+      "playerId": "PL-109764",
+      "type": "Bet",
+      "amount": 10.92,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-20T15:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-1",
+      "playerId": "PL-109993",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-2",
+      "playerId": "PL-109993",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-11-02T01:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-3",
+      "playerId": "PL-109993",
+      "type": "Bet",
+      "amount": 79.41,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-11-01T23:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-4",
+      "playerId": "PL-109993",
+      "type": "Win",
+      "amount": 51.14,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-11-01T07:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-5",
+      "playerId": "PL-109993",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-30T20:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-6",
+      "playerId": "PL-109993",
+      "type": "Win",
+      "amount": 62.32,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-28T15:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-7",
+      "playerId": "PL-109993",
+      "type": "Win",
+      "amount": 68.84,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-27T20:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-8",
+      "playerId": "PL-109993",
+      "type": "Withdrawal",
+      "amount": 429,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-25T10:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-9",
+      "playerId": "PL-109993",
+      "type": "Withdrawal",
+      "amount": 508,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-25T00:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-10",
+      "playerId": "PL-109993",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Failed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-24T18:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-11",
+      "playerId": "PL-109993",
+      "type": "Bet",
+      "amount": 27.84,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-23T08:52:00.000Z"
+    },
+    {
+      "id": "TX-109993-12",
+      "playerId": "PL-109993",
+      "type": "Bet",
+      "amount": 55.07,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-21T11:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-1",
+      "playerId": "PL-110154",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-2",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 30.17,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-02T05:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-3",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 55.49,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-31T06:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-4",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 76.8,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T15:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-5",
+      "playerId": "PL-110154",
+      "type": "Bet",
+      "amount": 11.97,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-30T13:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-6",
+      "playerId": "PL-110154",
+      "type": "Withdrawal",
+      "amount": 473,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-28T13:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-7",
+      "playerId": "PL-110154",
+      "type": "Bet",
+      "amount": 69.45,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-28T00:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-8",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 32.17,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-26T19:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-9",
+      "playerId": "PL-110154",
+      "type": "Bet",
+      "amount": 63.29,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-25T11:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-10",
+      "playerId": "PL-110154",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-24T02:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-11",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 17.4,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-23T22:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-12",
+      "playerId": "PL-110154",
+      "type": "Withdrawal",
+      "amount": 291,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-23T02:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-13",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 35.28,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-23T01:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-14",
+      "playerId": "PL-110154",
+      "type": "Win",
+      "amount": 7.17,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-21T16:52:00.000Z"
+    },
+    {
+      "id": "TX-110154-15",
+      "playerId": "PL-110154",
+      "type": "Bet",
+      "amount": 62.4,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-20T01:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-1",
+      "playerId": "PL-110445",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-2",
+      "playerId": "PL-110445",
+      "type": "Bet",
+      "amount": 58.42,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-01T16:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-3",
+      "playerId": "PL-110445",
+      "type": "Bet",
+      "amount": 28.8,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-31T18:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-4",
+      "playerId": "PL-110445",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-31T12:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-5",
+      "playerId": "PL-110445",
+      "type": "Win",
+      "amount": 75.54,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-29T01:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-6",
+      "playerId": "PL-110445",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-26T21:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-7",
+      "playerId": "PL-110445",
+      "type": "Deposit",
+      "amount": 500,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-25T02:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-8",
+      "playerId": "PL-110445",
+      "type": "Bet",
+      "amount": 1.98,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-24T07:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-9",
+      "playerId": "PL-110445",
+      "type": "Bet",
+      "amount": 45.04,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-23T08:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-10",
+      "playerId": "PL-110445",
+      "type": "Withdrawal",
+      "amount": 461,
+      "status": "Completed",
+      "method": "Trustly",
+      "createdAt": "2026-10-22T05:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-11",
+      "playerId": "PL-110445",
+      "type": "Withdrawal",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Skrill",
+      "createdAt": "2026-10-20T10:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-12",
+      "playerId": "PL-110445",
+      "type": "Win",
+      "amount": 22.17,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-19T20:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-13",
+      "playerId": "PL-110445",
+      "type": "Win",
+      "amount": 69.35,
+      "status": "Completed",
+      "method": "Slots",
+      "createdAt": "2026-10-17T19:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-14",
+      "playerId": "PL-110445",
+      "type": "Bet",
+      "amount": 13.67,
+      "status": "Failed",
+      "method": "Live casino",
+      "createdAt": "2026-10-16T06:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-15",
+      "playerId": "PL-110445",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Completed",
+      "method": "Mastercard",
+      "createdAt": "2026-10-14T13:52:00.000Z"
+    },
+    {
+      "id": "TX-110445-16",
+      "playerId": "PL-110445",
+      "type": "Win",
+      "amount": 46.31,
+      "status": "Failed",
+      "method": "Football",
+      "createdAt": "2026-10-12T18:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-1",
+      "playerId": "PL-110528",
+      "type": "Deposit",
+      "amount": 20,
+      "status": "Failed",
+      "method": "Skrill",
+      "createdAt": "2026-11-03T14:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-2",
+      "playerId": "PL-110528",
+      "type": "Bet",
+      "amount": 43.45,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-11-02T01:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-3",
+      "playerId": "PL-110528",
+      "type": "Bet",
+      "amount": 69.02,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-31T16:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-4",
+      "playerId": "PL-110528",
+      "type": "Win",
+      "amount": 3.78,
+      "status": "Completed",
+      "method": "Football",
+      "createdAt": "2026-10-30T00:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-5",
+      "playerId": "PL-110528",
+      "type": "Win",
+      "amount": 1.78,
+      "status": "Completed",
+      "method": "Tennis",
+      "createdAt": "2026-10-27T22:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-6",
+      "playerId": "PL-110528",
+      "type": "Bet",
+      "amount": 73.4,
+      "status": "Completed",
+      "method": "Live casino",
+      "createdAt": "2026-10-27T19:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-7",
+      "playerId": "PL-110528",
+      "type": "Bonus",
+      "amount": 50,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-25T12:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-8",
+      "playerId": "PL-110528",
+      "type": "Bonus",
+      "amount": 25,
+      "status": "Completed",
+      "method": "Bonus wallet",
+      "createdAt": "2026-10-23T10:52:00.000Z"
+    },
+    {
+      "id": "TX-110528-9",
+      "playerId": "PL-110528",
+      "type": "Deposit",
+      "amount": 200,
+      "status": "Completed",
+      "method": "Visa",
+      "createdAt": "2026-10-22T12:52:00.000Z"
+    }
+  ],
+  "limits": [
+    {
+      "id": "PL-104382",
+      "depositDaily": 200,
+      "depositWeekly": 500,
+      "depositMonthly": 1000,
+      "lossMonthly": 800,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "PL-104709",
+      "depositDaily": 100,
+      "depositWeekly": 400,
+      "depositMonthly": 1200,
+      "lossMonthly": 960,
+      "sessionMinutes": 180,
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "PL-104833",
+      "depositDaily": 500,
+      "depositWeekly": 2000,
+      "depositMonthly": 6000,
+      "lossMonthly": 4800,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "PL-105058",
+      "depositDaily": 300,
+      "depositWeekly": 1500,
+      "depositMonthly": 3000,
+      "lossMonthly": 2400,
+      "sessionMinutes": 90,
+      "updatedAt": "2026-10-10T12:00:00.000Z"
+    },
+    {
+      "id": "PL-105264",
+      "depositDaily": 300,
+      "depositWeekly": 1200,
+      "depositMonthly": 3600,
+      "lossMonthly": 2880,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-03T12:00:00.000Z"
+    },
+    {
+      "id": "PL-105536",
+      "depositDaily": 200,
+      "depositWeekly": 600,
+      "depositMonthly": 1200,
+      "lossMonthly": 960,
+      "sessionMinutes": 240,
+      "updatedAt": "2026-10-16T12:00:00.000Z"
+    },
+    {
+      "id": "PL-105686",
+      "depositDaily": 200,
+      "depositWeekly": 800,
+      "depositMonthly": 3200,
+      "lossMonthly": 2560,
+      "sessionMinutes": 180,
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "PL-105878",
+      "depositDaily": 300,
+      "depositWeekly": 1500,
+      "depositMonthly": 6000,
+      "lossMonthly": 4800,
+      "sessionMinutes": 240,
+      "updatedAt": "2026-09-06T12:00:00.000Z"
+    },
+    {
+      "id": "PL-106097",
+      "depositDaily": 100,
+      "depositWeekly": 300,
+      "depositMonthly": 900,
+      "lossMonthly": 720,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "PL-106317",
+      "depositDaily": 50,
+      "depositWeekly": 200,
+      "depositMonthly": 400,
+      "lossMonthly": 320,
+      "sessionMinutes": 90,
+      "updatedAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "PL-106632",
+      "depositDaily": 200,
+      "depositWeekly": 600,
+      "depositMonthly": 1800,
+      "lossMonthly": 1440,
+      "sessionMinutes": 180,
+      "updatedAt": "2026-10-17T12:00:00.000Z"
+    },
+    {
+      "id": "PL-106854",
+      "depositDaily": 500,
+      "depositWeekly": 2000,
+      "depositMonthly": 4000,
+      "lossMonthly": 3200,
+      "sessionMinutes": 90,
+      "updatedAt": "2026-10-04T12:00:00.000Z"
+    },
+    {
+      "id": "PL-107061",
+      "depositDaily": 50,
+      "depositWeekly": 150,
+      "depositMonthly": 450,
+      "lossMonthly": 360,
+      "sessionMinutes": 60,
+      "updatedAt": "2026-10-22T12:00:00.000Z"
+    },
+    {
+      "id": "PL-107145",
+      "depositDaily": 300,
+      "depositWeekly": 900,
+      "depositMonthly": 2700,
+      "lossMonthly": 2160,
+      "sessionMinutes": 240,
+      "updatedAt": "2026-11-02T12:00:00.000Z"
+    },
+    {
+      "id": "PL-107361",
+      "depositDaily": 500,
+      "depositWeekly": 1500,
+      "depositMonthly": 6000,
+      "lossMonthly": 4800,
+      "sessionMinutes": 60,
+      "updatedAt": "2026-10-15T12:00:00.000Z"
+    },
+    {
+      "id": "PL-107566",
+      "depositDaily": 50,
+      "depositWeekly": 150,
+      "depositMonthly": 450,
+      "lossMonthly": 360,
+      "sessionMinutes": 60,
+      "updatedAt": "2026-10-24T12:00:00.000Z"
+    },
+    {
+      "id": "PL-107809",
+      "depositDaily": 300,
+      "depositWeekly": 1200,
+      "depositMonthly": 2400,
+      "lossMonthly": 1920,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "PL-108003",
+      "depositDaily": 500,
+      "depositWeekly": 2500,
+      "depositMonthly": 10000,
+      "lossMonthly": 8000,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-06T12:00:00.000Z"
+    },
+    {
+      "id": "PL-108271",
+      "depositDaily": 50,
+      "depositWeekly": 250,
+      "depositMonthly": 750,
+      "lossMonthly": 600,
+      "sessionMinutes": 60,
+      "updatedAt": "2026-10-26T12:00:00.000Z"
+    },
+    {
+      "id": "PL-108544",
+      "depositDaily": 100,
+      "depositWeekly": 400,
+      "depositMonthly": 1200,
+      "lossMonthly": 960,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-20T12:00:00.000Z"
+    },
+    {
+      "id": "PL-108756",
+      "depositDaily": 50,
+      "depositWeekly": 200,
+      "depositMonthly": 400,
+      "lossMonthly": 320,
+      "sessionMinutes": 180,
+      "updatedAt": "2026-09-08T12:00:00.000Z"
+    },
+    {
+      "id": "PL-108945",
+      "depositDaily": 50,
+      "depositWeekly": 200,
+      "depositMonthly": 400,
+      "lossMonthly": 320,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "PL-109043",
+      "depositDaily": 100,
+      "depositWeekly": 400,
+      "depositMonthly": 1600,
+      "lossMonthly": 1280,
+      "sessionMinutes": 240,
+      "updatedAt": "2026-10-30T12:00:00.000Z"
+    },
+    {
+      "id": "PL-109393",
+      "depositDaily": 300,
+      "depositWeekly": 1500,
+      "depositMonthly": 3000,
+      "lossMonthly": 2400,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "PL-109569",
+      "depositDaily": 200,
+      "depositWeekly": 1000,
+      "depositMonthly": 4000,
+      "lossMonthly": 3200,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": "PL-109764",
+      "depositDaily": 500,
+      "depositWeekly": 2000,
+      "depositMonthly": 8000,
+      "lossMonthly": 6400,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-16T12:00:00.000Z"
+    },
+    {
+      "id": "PL-109993",
+      "depositDaily": 500,
+      "depositWeekly": 1500,
+      "depositMonthly": 6000,
+      "lossMonthly": 4800,
+      "sessionMinutes": 90,
+      "updatedAt": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "PL-110154",
+      "depositDaily": 200,
+      "depositWeekly": 800,
+      "depositMonthly": 2400,
+      "lossMonthly": 1920,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-21T12:00:00.000Z"
+    },
+    {
+      "id": "PL-110445",
+      "depositDaily": 200,
+      "depositWeekly": 600,
+      "depositMonthly": 1200,
+      "lossMonthly": 960,
+      "sessionMinutes": 90,
+      "updatedAt": "2026-09-05T12:00:00.000Z"
+    },
+    {
+      "id": "PL-110528",
+      "depositDaily": 50,
+      "depositWeekly": 150,
+      "depositMonthly": 300,
+      "lossMonthly": 240,
+      "sessionMinutes": 120,
+      "updatedAt": "2026-10-24T12:00:00.000Z"
+    }
+  ],
+  "bonuses": [
+    {
+      "id": "b1",
+      "product": "casino",
+      "type": "welcome",
+      "name": "Welcome 100% up to €200",
+      "code": "WELCOME-100",
+      "status": "Active",
+      "assignment": "auto",
+      "validFrom": "2026-01-01",
+      "validTo": "2026-12-31",
+      "minVip": "Bronze",
+      "countries": [],
+      "rules": {
+        "matchPercent": 100,
+        "maxBonus": 200,
+        "minDeposit": 20,
+        "wagering": 35
+      }
+    },
+    {
+      "id": "b2",
+      "product": "casino",
+      "type": "reload",
+      "name": "Weekend reload 50%",
+      "code": "RELOAD-WKND-50",
+      "status": "Active",
+      "assignment": "manual",
+      "validFrom": "2026-10-01",
+      "validTo": "2026-12-31",
+      "minVip": "Silver",
+      "countries": [],
+      "rules": {
+        "matchPercent": 50,
+        "maxBonus": 100,
+        "minDeposit": 20,
+        "wagering": 30
+      }
+    },
+    {
+      "id": "b3",
+      "product": "casino",
+      "type": "free_spins",
+      "name": "50 free spins on Book of Ra",
+      "code": "SPINS-BOR-50",
+      "status": "Active",
+      "assignment": "manual",
+      "validFrom": "2026-11-01",
+      "validTo": "2026-11-30",
+      "minVip": "Bronze",
+      "countries": [
+        "DE",
+        "AT",
+        "CH"
+      ],
+      "rules": {
+        "spins": 50,
+        "spinValue": 0.2,
+        "game": "Book of Ra",
+        "wagering": 25
+      }
+    },
+    {
+      "id": "b4",
+      "product": "casino",
+      "type": "cashback",
+      "name": "Weekly cashback 10%",
+      "code": "CASHBACK-10",
+      "status": "Active",
+      "assignment": "auto",
+      "validFrom": "2026-09-01",
+      "validTo": "2027-03-31",
+      "minVip": "Gold",
+      "countries": [],
+      "rules": {
+        "percent": 10,
+        "maxCashback": 500,
+        "period": "weekly"
+      }
+    },
+    {
+      "id": "b5",
+      "product": "casino",
+      "type": "no_deposit",
+      "name": "€10 no-deposit trial",
+      "code": "TRY-10",
+      "status": "Draft",
+      "assignment": "manual",
+      "validFrom": "2026-12-01",
+      "validTo": "2027-01-31",
+      "minVip": "Bronze",
+      "countries": [
+        "FI",
+        "SE",
+        "NO"
+      ],
+      "rules": {
+        "amount": 10,
+        "maxWin": 100,
+        "wagering": 50
+      }
+    },
+    {
+      "id": "b6",
+      "product": "casino",
+      "type": "reload",
+      "name": "High-roller reload 25%",
+      "code": "HR-RELOAD-25",
+      "status": "Paused",
+      "assignment": "manual",
+      "validFrom": "2026-08-01",
+      "validTo": "2026-12-31",
+      "minVip": "Platinum",
+      "countries": [],
+      "rules": {
+        "matchPercent": 25,
+        "maxBonus": 1000,
+        "minDeposit": 500,
+        "wagering": 20
+      }
+    },
+    {
+      "id": "b7",
+      "product": "sport",
+      "type": "free_bet",
+      "name": "€10 free bet",
+      "code": "FREEBET-10",
+      "status": "Active",
+      "assignment": "manual",
+      "validFrom": "2026-10-15",
+      "validTo": "2026-12-15",
+      "minVip": "Bronze",
+      "countries": [],
+      "rules": {
+        "amount": 10,
+        "minOdds": 1.8
+      }
+    },
+    {
+      "id": "b8",
+      "product": "sport",
+      "type": "acca_boost",
+      "name": "Acca boost up to 50%",
+      "code": "ACCA-50",
+      "status": "Active",
+      "assignment": "auto",
+      "validFrom": "2026-08-01",
+      "validTo": "2027-05-31",
+      "minVip": "Bronze",
+      "countries": [],
+      "rules": {
+        "minLegs": 3,
+        "table": [
+          {
+            "legs": 3,
+            "percent": 5
+          },
+          {
+            "legs": 5,
+            "percent": 15
+          },
+          {
+            "legs": 8,
+            "percent": 30
+          },
+          {
+            "legs": 12,
+            "percent": 50
+          }
+        ]
+      }
+    },
+    {
+      "id": "b9",
+      "product": "sport",
+      "type": "risk_free",
+      "name": "Risk-free first bet",
+      "code": "RISKFREE-50",
+      "status": "Active",
+      "assignment": "manual",
+      "validFrom": "2026-09-01",
+      "validTo": "2026-12-31",
+      "minVip": "Bronze",
+      "countries": [
+        "IE",
+        "CA",
+        "NZ"
+      ],
+      "rules": {
+        "maxStake": 50,
+        "refundAs": "free bet"
+      }
+    },
+    {
+      "id": "b10",
+      "product": "sport",
+      "type": "odds_boost",
+      "name": "Champions League odds boost",
+      "code": "UCL-BOOST",
+      "status": "Paused",
+      "assignment": "auto",
+      "validFrom": "2026-09-15",
+      "validTo": "2027-05-31",
+      "minVip": "Silver",
+      "countries": [],
+      "rules": {
+        "boostPercent": 20,
+        "maxStake": 25,
+        "market": "Match result"
+      }
+    },
+    {
+      "id": "b11",
+      "product": "sport",
+      "type": "free_bet",
+      "name": "€25 VIP free bet",
+      "code": "VIP-FB-25",
+      "status": "Draft",
+      "assignment": "manual",
+      "validFrom": "2026-12-01",
+      "validTo": "2026-12-31",
+      "minVip": "Gold",
+      "countries": [],
+      "rules": {
+        "amount": 25,
+        "minOdds": 1.5
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "id": "as1",
+      "bonusId": "b2",
+      "playerId": "PL-104709",
+      "reason": "Retention: deposit dropped this month",
+      "expiresAt": "2026-11-10",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "id": "as2",
+      "bonusId": "b3",
+      "playerId": "PL-104382",
+      "reason": "Birthday gift",
+      "expiresAt": "2026-11-11",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-03T06:00:00.000Z"
+    },
+    {
+      "id": "as3",
+      "bonusId": "b7",
+      "playerId": "PL-104833",
+      "reason": "VIP host request",
+      "expiresAt": "2026-11-12",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-03T03:00:00.000Z"
+    },
+    {
+      "id": "as4",
+      "bonusId": "b7",
+      "playerId": "PL-105264",
+      "reason": "Complaint goodwill",
+      "expiresAt": "2026-11-13",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "id": "as5",
+      "bonusId": "b9",
+      "playerId": "PL-105686",
+      "reason": "Win-back campaign",
+      "expiresAt": "2026-11-14",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-02T21:00:00.000Z"
+    },
+    {
+      "id": "as6",
+      "bonusId": "b2",
+      "playerId": "PL-106097",
+      "reason": "Retention: inactive for 14 days",
+      "expiresAt": "2026-11-15",
+      "amountOverride": null,
+      "notify": true,
+      "createdAt": "2026-11-02T18:00:00.000Z"
+    }
+  ],
+  "auditLog": [
+    {
+      "id": "au1",
+      "at": "2026-11-03T09:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-104709",
+      "detail": "Assigned RELOAD-WKND-50: Retention: deposit dropped this month"
+    },
+    {
+      "id": "au2",
+      "at": "2026-11-03T06:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-104382",
+      "detail": "Assigned SPINS-BOR-50: Birthday gift"
+    },
+    {
+      "id": "au3",
+      "at": "2026-11-03T03:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-104833",
+      "detail": "Assigned FREEBET-10: VIP host request"
+    },
+    {
+      "id": "au4",
+      "at": "2026-11-03T00:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-105264",
+      "detail": "Assigned FREEBET-10: Complaint goodwill"
+    },
+    {
+      "id": "au5",
+      "at": "2026-11-02T21:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-105686",
+      "detail": "Assigned RISKFREE-50: Win-back campaign"
+    },
+    {
+      "id": "au6",
+      "at": "2026-11-02T18:00:00.000Z",
+      "role": "crm",
+      "action": "bonus.assign",
+      "target": "PL-106097",
+      "detail": "Assigned RELOAD-WKND-50: Retention: inactive for 14 days"
+    },
+    {
+      "id": "au7",
+      "at": "2026-11-02T16:00:00.000Z",
+      "role": "admin",
+      "action": "player.status",
+      "target": "PL-105058",
+      "detail": "Active → Suspended: chargeback under review"
+    },
+    {
+      "id": "au8",
+      "at": "2026-11-02T10:00:00.000Z",
+      "role": "support",
+      "action": "limits.update",
+      "target": "PL-104382",
+      "detail": "Weekly deposit limit lowered on player request"
+    }
+  ]
+}

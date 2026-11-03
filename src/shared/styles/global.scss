@@ -1,0 +1,101 @@
+// Design tokens from the PlayerOps UX canvas. Dark values apply with the OS
+// setting, or when <html data-theme="dark"> is set (theme toggle comes in T5).
+:root {
+  --bg: #f2f5f3;
+  --surface: #ffffff;
+  --surface-2: #e8eeea;
+  --line: #d3dcd6;
+  --fg: #16201b;
+  --muted: #56675e;
+  --accent: #1d6b52;
+  --accent-fg: #ffffff;
+  --accent-soft: #d9ede4;
+  --good: #1d7a4b;
+  --warn: #9a5d08;
+  --bad: #b0352d;
+  --info: #2c5c9a;
+  --vip: #7a5a12;
+  --radius: 8px;
+
+  --f-display:
+    'Bricolage Grotesque', 'Avenir Next', 'Segoe UI', system-ui, sans-serif;
+  --f-body: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  color-scheme: light;
+}
+
+@mixin dark-tokens {
+  --bg: #0e1412;
+  --surface: #151d1a;
+  --surface-2: #1c2622;
+  --line: #29352f;
+  --fg: #e3ebe6;
+  --muted: #90a198;
+  --accent: #4fc497;
+  --accent-fg: #06231a;
+  --accent-soft: #163a2c;
+  --good: #5fcf8f;
+  --warn: #e3a64c;
+  --bad: #f07b70;
+  --info: #83a9e8;
+  --vip: #e2c26f;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    @include dark-tokens;
+  }
+}
+:root[data-theme='dark'] {
+  @include dark-tokens;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 400 14px/1.5 var(--f-body);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+a {
+  color: var(--accent);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--f-display);
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+.mono {
+  font-family: var(--f-mono);
+  font-size: 0.92em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

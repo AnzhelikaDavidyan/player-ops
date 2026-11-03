@@ -1,0 +1,193 @@
+@use '@/shared/styles/mixins' as *;
+
+.app {
+  display: grid;
+  grid-template-columns: 236px minmax(0, 1fr);
+  min-height: 100vh;
+
+  @include breakpoint(md) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.rail {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 20px 16px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  overflow: auto;
+
+  @include breakpoint(md) {
+    position: static;
+    height: auto;
+    gap: 12px;
+    padding: 12px 16px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  b {
+    font: 700 1.15rem/1 var(--f-display);
+  }
+  small {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted);
+    font-size: 0.72rem;
+  }
+}
+
+.mark {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  background: var(--accent);
+  color: var(--accent-fg);
+  font: 700 13px/1 var(--f-mono);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 6px;
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: 500;
+    @include focus-ring;
+
+    &:hover {
+      background: var(--surface-2);
+    }
+    // NavLink adds aria-current="page" to the link for the current route.
+    &[aria-current='page'] {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+  }
+
+  @include breakpoint(md) {
+    flex-direction: row;
+    overflow-x: auto;
+    a {
+      white-space: nowrap;
+    }
+  }
+}
+
+.count {
+  margin-left: 8px;
+  font: 500 0.78rem var(--f-mono);
+  color: var(--muted);
+
+  [aria-current='page'] & {
+    color: inherit;
+  }
+}
+
+.user {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 500;
+
+  @include breakpoint(md) {
+    display: none;
+  }
+}
+
+.label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.main {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+
+  h1 {
+    font-size: 1.55rem;
+    font-weight: 700;
+    @include truncate;
+  }
+
+  @include breakpoint(md) {
+    padding-inline: 16px;
+  }
+}
+
+.sync {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  font-size: 0.8rem;
+
+  &::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--good);
+  }
+  &[data-state='down']::before {
+    background: var(--bad);
+  }
+}
+
+.view {
+  width: 100%;
+  max-width: 1240px;
+  padding: 22px 24px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  @include breakpoint(md) {
+    padding-inline: 16px;
+  }
+}

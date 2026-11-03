@@ -1,40 +1,62 @@
-# Player Ops
+# PlayerOps
 
-React app for managing players.
+A player management console for a casino and sportsbook back office: players, risk,
+responsible-gaming limits, bonuses and an audit log. Built in React to the PlayerOps
+UX designs.
+
+## Run it
+
+```bash
+npm install
+npm run dev:all   # app on http://localhost:5173 + fake API on :3001
+```
+
+`dev:all` starts Vite and json-server together. The app calls `/api/...`; Vite proxies
+that to json-server, which serves `db.json` as a REST API with a 400 ms delay and
+writes every change back into the file. `npm run seed` regenerates `db.json` (30
+players, transactions, limits, 6 casino + 5 sport bonuses) and discards your edits.
+
+| Command             | What it does                                   |
+| ------------------- | ---------------------------------------------- |
+| `npm run dev:all`   | App + API together                             |
+| `npm run dev`       | App only (the UI shows "API offline")          |
+| `npm run api`       | json-server only                               |
+| `npm run seed`      | Rebuild `db.json` from `scripts/seed.mjs`      |
+| `npm run typecheck` | Strict type-check; must pass before every push |
+| `npm run lint`      | oxlint                                         |
+| `npm run build`     | Type-check and build to `dist/`                |
+| `npm run format`    | Prettier                                       |
 
 ## Stack
 
-- [Vite](https://vite.dev/) + React + TypeScript
-- [React Router](https://reactrouter.com/) for pages
-- oxlint for linting, Prettier for formatting
-
-## Scripts
-
-| Command                | What it does                     |
-| ---------------------- | -------------------------------- |
-| `npm run dev`          | Start the dev server (port 5173) |
-| `npm run build`        | Type-check and build to `dist/`  |
-| `npm run preview`      | Serve the production build       |
-| `npm run lint`         | Lint with oxlint                 |
-| `npm run typecheck`    | Type-check only                  |
-| `npm run format`       | Format all files with Prettier   |
-| `npm run format:check` | Check formatting without writing |
+- React 19, TypeScript in strict mode (`noUncheckedIndexedAccess`,
+  `exactOptionalPropertyTypes`, `verbatimModuleSyntax`), Vite
+- Redux Toolkit + **RTK Query** for server state (cache, tags, invalidation)
+- React Router data router; route titles live in `handle`
+- Zustand (UI preferences), React Hook Form + Zod (forms): installed, used from T5/T6
+- SCSS modules; colours are CSS variables, shared blocks are mixins
+- json-server 0.17.4 as the fake backend
 
 ## Structure
 
 ```
 src/
-  app/         App shell: router (App.tsx) and layout (Layout.tsx)
-  pages/       One component per route
-  components/  Reusable UI pieces
-  data/        Mock data (replace with API calls later)
-  types/       Shared TypeScript types
+  app/        store, typed hooks, router, Layout (sidebar + header)
+  features/
+    players/  api/ (RTK Query endpoints), hooks/, components/, pages/
+    session/  role of the signed-in user
+  shared/     baseApi, useDebounce, formatters, small UI (StatusPill, RiskBar…), styles
+  types/      domain models: Player, Transaction, Limits, Bonus, Assignment, AuditEntry
+scripts/seed.mjs   generates db.json
 ```
 
-## Day 1 (done)
+Code is grouped by feature, so everything about players lives in one folder.
+`shared/` holds only things two or more features use.
 
-- Scaffolded Vite + React + TypeScript, removed the demo content
-- Added React Router with routes: `/`, `/players`, `/players/:playerId`, 404
-- Sidebar layout, Dashboard stats, Players table, Player detail page
-- Mock player data and a `Player` type
-- Prettier config and format/typecheck scripts
+## Progress
+
+- [x] **T1** Setup: strict TS, `@/` alias, domain types, mixins, json-server, store, layout
+- [x] **T2** Players list: RTK Query, filters/sort/page in the URL, 300 ms debounced
+      search, loading skeleton, empty and error states, previous page stays visible
+- [ ] T3 Player profile · T4 Change status · T5 Zustand preferences · T6 Limits form
+- [ ] T7–T9 Bonuses · T10 Tests and deploy

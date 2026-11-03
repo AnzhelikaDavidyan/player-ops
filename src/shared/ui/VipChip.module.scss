@@ -1,0 +1,15 @@
+.chip {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 4px;
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 500;
+}
+
+.premium {
+  composes: chip;
+  color: var(--vip);
+  background: color-mix(in srgb, var(--vip) 13%, transparent);
+}

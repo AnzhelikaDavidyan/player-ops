@@ -1,0 +1,14 @@
+@use '@/shared/styles/mixins' as *;
+
+.good {
+  @include status-pill(var(--good));
+}
+.warn {
+  @include status-pill(var(--warn));
+}
+.info {
+  @include status-pill(var(--info));
+}
+.bad {
+  @include status-pill(var(--bad));
+}
