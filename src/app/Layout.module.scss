@@ -177,6 +177,9 @@
   &[data-state='down']::before {
     background: var(--bad);
   }
+  &[data-state='demo']::before {
+    background: var(--info);
+  }
 }
 
 .view {

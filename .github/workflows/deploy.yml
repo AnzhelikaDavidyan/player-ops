@@ -42,6 +42,8 @@ jobs:
         run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
+          # Pages has no backend: answer /api in the browser (src/mocks).
+          VITE_MOCK_API: 'true'
 
       # Pages has no SPA fallback: opening /player-ops/players directly would 404.
       # Serving index.html as the 404 page lets React Router handle the URL.

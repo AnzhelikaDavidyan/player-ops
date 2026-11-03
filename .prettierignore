@@ -2,3 +2,4 @@ dist
 node_modules
 db.json
 scripts/seed.mjs
+public/mockServiceWorker.js

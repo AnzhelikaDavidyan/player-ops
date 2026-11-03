@@ -5,6 +5,8 @@ import { useAppSelector } from './hooks'
 import type { RouteHandle } from './router'
 import styles from './Layout.module.scss'
 
+const MOCK_API = import.meta.env.VITE_MOCK_API === 'true'
+
 export function Layout() {
   const role = useAppSelector(selectRole)
   const { data: playerCount, isError: apiDown } = useGetPlayersTotalQuery()
@@ -52,10 +54,14 @@ export function Layout() {
           <h1>{title}</h1>
           <span
             className={styles.sync}
-            data-state={apiDown ? 'down' : 'live'}
+            data-state={apiDown ? 'down' : MOCK_API ? 'demo' : 'live'}
             role="status"
           >
-            {apiDown ? 'API offline' : 'Live'}
+            {apiDown
+              ? 'API offline'
+              : MOCK_API
+                ? 'Demo data · resets on reload'
+                : 'Live'}
           </span>
         </header>
         <section className={styles.view}>
