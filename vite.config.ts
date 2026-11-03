@@ -4,6 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // GitHub Pages serves the app from /player-ops/; the deploy workflow sets
+  // BASE_PATH. Locally it stays at the root.
+  base: process.env.BASE_PATH ?? '/',
   plugins: [react()],
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },
