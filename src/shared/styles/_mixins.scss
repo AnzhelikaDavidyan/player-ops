@@ -1,5 +1,6 @@
 // Shared style blocks. Colours stay in CSS variables (see global.scss) so a
 // runtime theme switch keeps working; mixins only hold repeated structure.
+@use 'sass:map';
 
 $breakpoints: (
   sm: 640px,
@@ -9,7 +10,7 @@ $breakpoints: (
 
 // Styles for screens narrower than $size.
 @mixin breakpoint($size) {
-  @media (max-width: map-get($breakpoints, $size)) {
+  @media (max-width: map.get($breakpoints, $size)) {
     @content;
   }
 }
