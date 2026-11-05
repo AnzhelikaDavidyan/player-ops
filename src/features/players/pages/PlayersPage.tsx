@@ -14,6 +14,10 @@ export function PlayersPage() {
   const { data, isLoading, isFetching, isError, refetch } =
     useGetPlayersQuery(filters)
 
+  // A page past the end, from an old link or a hand-edited URL. Filters are not
+  // the problem here, so the way out is the first page, not Clear filters.
+  const pastLastPage = data !== undefined && data.total > 0
+
   return (
     <>
       <PlayersFilters
@@ -25,7 +29,9 @@ export function PlayersPage() {
       <div className={styles.panel}>
         {isLoading ? (
           <Skeleton rows={PAGE_SIZE} />
-        ) : isError && !data ? (
+        ) : isError ? (
+          // Checked before `data`: after a failed filter change `data` still holds
+          // the previous result, which would show rows that do not match the URL.
           <div className={styles.empty} role="alert">
             <h2>Could not load players</h2>
             <p>
@@ -55,6 +61,18 @@ export function PlayersPage() {
               onPage={(page) => setFilters({ page })}
             />
           </>
+        ) : pastLastPage ? (
+          <div className={styles.empty}>
+            <h2>This page is empty</h2>
+            <p>Players in this list: {data.total}.</p>
+            <button
+              type="button"
+              className={styles.primary}
+              onClick={() => setFilters({ page: 1 })}
+            >
+              Go to first page
+            </button>
+          </div>
         ) : (
           <div className={styles.empty}>
             <h2>No players match</h2>

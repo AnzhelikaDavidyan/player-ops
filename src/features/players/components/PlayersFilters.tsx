@@ -20,6 +20,16 @@ export function PlayersFilters({
   const [text, setText] = useState(filters.q)
   const debouncedText = useDebounce(text.trim(), 300)
 
+  // The URL can also change without typing: Back, the sidebar link, the empty
+  // state's Clear filters. Copy that into the input during render, before the
+  // effect below can push the old text back. A value equal to debouncedText is
+  // our own push, so it is skipped: resetting would drop what was typed since.
+  const [syncedQ, setSyncedQ] = useState(filters.q)
+  if (filters.q !== syncedQ) {
+    setSyncedQ(filters.q)
+    if (filters.q !== debouncedText) setText(filters.q)
+  }
+
   useEffect(() => {
     // Only push once typing has settled, so a Clear in the middle is not undone.
     if (debouncedText === text.trim() && debouncedText !== filters.q) {
