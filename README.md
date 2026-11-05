@@ -46,6 +46,7 @@ src/
   app/        store, typed hooks, router, Layout (sidebar + header)
   features/
     players/  api/ (RTK Query endpoints), hooks/, components/, pages/
+    profile/  player profile: header, tabs on ?tab=, transactions, history, bonuses
     session/  role of the signed-in user
   shared/     baseApi, uiStore, useDebounce, formatters, small UI (StatusPill…), styles
   types/      domain models: Player, Transaction, Limits, Bonus, Assignment, AuditEntry
@@ -61,5 +62,6 @@ Code is grouped by feature, so everything about players lives in one folder.
 - [x] **T2** Players list: RTK Query, filters/sort/page in the URL, 300 ms debounced
       search, loading skeleton, empty and error states, previous page stays visible
 - [x] **T5** UI preferences: Zustand store with persist, theme, column picker, saved views
-- [ ] T3 Player profile · T4 Change status · T6 Limits form
+- [x] **T3** Player profile: header, tabs and transaction filter in the URL, 404 state
+- [ ] T4 Change status · T6 Limits form
 - [ ] T7–T9 Bonuses · T10 Tests and deploy

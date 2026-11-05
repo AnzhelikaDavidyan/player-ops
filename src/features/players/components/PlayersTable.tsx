@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router'
+import { useLocation, useNavigate } from 'react-router'
 import { useUiStore } from '@/shared/store/uiStore'
 import type { Player } from '@/types'
 import type { PlayerSortKey, PlayersQuery } from '../api/playersApi'
@@ -25,6 +25,7 @@ export function PlayersTable({
   stale,
 }: PlayersTableProps) {
   const navigate = useNavigate()
+  const { search } = useLocation()
   const hiddenColumns = useUiStore((s) => s.hiddenColumns)
   const columns = PLAYER_COLUMNS.filter(
     (c) => c.id === 'player' || !hiddenColumns.includes(c.id),
@@ -74,7 +75,12 @@ export function PlayersTable({
         </thead>
         <tbody>
           {players.map((p) => (
-            <tr key={p.id} onClick={() => navigate(`/players/${p.id}`)}>
+            <tr
+              key={p.id}
+              onClick={() =>
+                navigate(`/players/${p.id}`, { state: { listSearch: search } })
+              }
+            >
               {columns.map((col) => (
                 <td
                   key={col.id}

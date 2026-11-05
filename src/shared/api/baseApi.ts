@@ -6,6 +6,13 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const baseApi = createApi({
   reducerPath: 'api',
   baseQuery: fetchBaseQuery({ baseUrl: `${import.meta.env.BASE_URL}api` }),
-  tagTypes: ['Player'],
+  tagTypes: ['Player', 'Limits', 'Audit', 'Assignment', 'Bonus'],
   endpoints: () => ({}),
 })
+
+/** True when a query failed because the record does not exist. */
+export const isNotFound = (error: unknown) =>
+  typeof error === 'object' &&
+  error !== null &&
+  'status' in error &&
+  error.status === 404

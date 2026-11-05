@@ -8,38 +8,18 @@
 }
 
 .table {
-  width: 100%;
+  @include data-table;
   min-width: 860px;
-  border-collapse: collapse;
-  font-variant-numeric: tabular-nums;
   transition: opacity 0.15s;
 
   &[data-stale='true'] {
     opacity: 0.55;
   }
 
-  th,
-  td {
-    padding: 10px 16px;
-    border-bottom: 1px solid var(--line);
-    text-align: left;
-    vertical-align: middle;
-    white-space: nowrap;
-  }
-
-  th {
-    background: var(--surface-2);
-    color: var(--muted);
-    font-size: 0.72rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    button {
-      all: unset;
-      cursor: pointer;
-      @include focus-ring;
-    }
+  th button {
+    all: unset;
+    cursor: pointer;
+    @include focus-ring;
   }
 
   tbody tr {
@@ -47,9 +27,6 @@
 
     &:hover {
       background: var(--surface-2);
-    }
-    &:last-child td {
-      border-bottom: 0;
     }
   }
 }

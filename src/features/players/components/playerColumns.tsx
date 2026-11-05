@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react'
-import { Link } from 'react-router'
 import { formatDate, formatEur } from '@/shared/lib/format'
 import { RiskBar } from '@/shared/ui/RiskBar'
 import { StatusPill } from '@/shared/ui/StatusPill'
 import { VipChip } from '@/shared/ui/VipChip'
 import type { Player, PlayerColumnId } from '@/types'
 import type { PlayerSortKey } from '../api/playersApi'
+import { PlayerLink } from './PlayerLink'
 import styles from './PlayersTable.module.scss'
 
 export interface PlayerColumn {
@@ -23,12 +23,9 @@ export const PLAYER_COLUMNS: PlayerColumn[] = [
     id: 'player',
     label: 'Player',
     sort: 'username',
-    // The whole row opens the profile; the username link keeps it keyboard reachable.
     cell: (p) => (
       <span className={styles.who}>
-        <Link to={`/players/${p.id}`} onClick={(e) => e.stopPropagation()}>
-          {p.username}
-        </Link>
+        <PlayerLink player={p} />
         <small className="mono">{p.id}</small>
       </span>
     ),

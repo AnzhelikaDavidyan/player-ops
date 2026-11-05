@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router'
 import { PlayersPage } from '@/features/players/pages/PlayersPage'
+import { PlayerProfilePage } from '@/features/profile/pages/PlayerProfilePage'
 import { ComingSoon } from '@/shared/ui/ComingSoon'
 import { Layout } from './Layout'
 
@@ -28,9 +29,7 @@ export const router = createBrowserRouter(
         {
           path: 'players/:playerId',
           handle: handle('Player profile'),
-          element: (
-            <ComingSoon task="The player profile (T3)" when="Wed Nov 4" />
-          ),
+          element: <PlayerProfilePage />,
         },
         {
           path: 'bonuses',
