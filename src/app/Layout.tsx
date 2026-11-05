@@ -1,6 +1,7 @@
 import { NavLink, Outlet, useMatches } from 'react-router'
 import { useGetPlayersTotalQuery } from '@/features/players/api/playersApi'
 import { ROLE_LABELS, selectRole } from '@/features/session/sessionSlice'
+import { ThemeSelect } from '@/shared/ui/ThemeSelect'
 import { useAppSelector } from './hooks'
 import type { RouteHandle } from './router'
 import styles from './Layout.module.scss'
@@ -52,17 +53,20 @@ export function Layout() {
       <main className={styles.main}>
         <header className={styles.top}>
           <h1>{title}</h1>
-          <span
-            className={styles.sync}
-            data-state={apiDown ? 'down' : MOCK_API ? 'demo' : 'live'}
-            role="status"
-          >
-            {apiDown
-              ? 'API offline'
-              : MOCK_API
-                ? 'Demo data · resets on reload'
-                : 'Live'}
-          </span>
+          <div className={styles.topActions}>
+            <ThemeSelect />
+            <span
+              className={styles.sync}
+              data-state={apiDown ? 'down' : MOCK_API ? 'demo' : 'live'}
+              role="status"
+            >
+              {apiDown
+                ? 'API offline'
+                : MOCK_API
+                  ? 'Demo data · resets on reload'
+                  : 'Live'}
+            </span>
+          </div>
         </header>
         <section className={styles.view}>
           <Outlet />

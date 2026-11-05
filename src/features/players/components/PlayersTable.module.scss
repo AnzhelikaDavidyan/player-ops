@@ -2,6 +2,9 @@
 
 .wrap {
   overflow-x: auto;
+  // Keeps absolutely positioned children (visually-hidden labels) inside the
+  // scroll area; otherwise they widen the whole page on small screens.
+  position: relative;
 }
 
 .table {

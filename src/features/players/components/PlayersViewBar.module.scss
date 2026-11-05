@@ -1,0 +1,141 @@
+@use '@/shared/styles/mixins' as *;
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.presets {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.preset {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  overflow: hidden;
+
+  button {
+    padding: 3px 8px;
+    border: 0;
+    background: transparent;
+    font-size: 0.82rem;
+    cursor: pointer;
+    @include focus-ring;
+    outline-offset: -2px;
+
+    &:first-child {
+      padding-left: 12px;
+      max-width: 200px;
+      @include truncate;
+    }
+    &:hover {
+      background: var(--surface-2);
+    }
+    &[aria-pressed='true'] {
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+  }
+}
+
+.menu {
+  position: relative;
+
+  summary {
+    padding: 6px 12px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    font-weight: 500;
+    cursor: pointer;
+    list-style: none;
+    @include focus-ring;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+    &:hover {
+      background: var(--surface-2);
+    }
+  }
+}
+
+.popover {
+  @include card-surface(12px);
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 220px;
+  margin: 0;
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--fg) 15%, transparent);
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  label:not(.check) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    > span {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 500;
+    }
+  }
+
+  input:not([type='checkbox']) {
+    padding: 6px 8px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    @include focus-ring;
+  }
+
+  button[type='submit'] {
+    padding: 6px 12px;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    background: var(--accent);
+    color: var(--accent-fg);
+    font-weight: 500;
+    cursor: pointer;
+    @include focus-ring;
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
+  input {
+    accent-color: var(--accent);
+    @include focus-ring;
+  }
+}

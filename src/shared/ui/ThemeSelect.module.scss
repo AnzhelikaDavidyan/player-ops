@@ -1,0 +1,18 @@
+@use '@/shared/styles/mixins' as *;
+
+.theme {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.8rem;
+
+  select {
+    padding: 3px 6px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--fg);
+    @include focus-ring;
+  }
+}

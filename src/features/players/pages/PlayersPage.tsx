@@ -2,11 +2,13 @@ import { PAGE_SIZE, useGetPlayersQuery } from '../api/playersApi'
 import { Pager } from '../components/Pager'
 import { PlayersFilters } from '../components/PlayersFilters'
 import { PlayersTable } from '../components/PlayersTable'
+import { PlayersViewBar } from '../components/PlayersViewBar'
 import { usePlayerFilters } from '../hooks/usePlayerFilters'
 import styles from './PlayersPage.module.scss'
 
 export function PlayersPage() {
-  const { filters, setFilters, clearFilters, isFiltered } = usePlayerFilters()
+  const { filters, setFilters, clearFilters, applySearch, search, isFiltered } =
+    usePlayerFilters()
 
   // When the filters change, RTK Query keeps returning the previous result in
   // `data` while the new one loads (isFetching), so the table never flashes empty.
@@ -25,6 +27,8 @@ export function PlayersPage() {
         onChange={setFilters}
         onClear={clearFilters}
       />
+
+      <PlayersViewBar search={search} onApply={applySearch} />
 
       <div className={styles.panel}>
         {isLoading ? (

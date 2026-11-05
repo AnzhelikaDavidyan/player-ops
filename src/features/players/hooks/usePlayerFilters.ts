@@ -31,6 +31,20 @@ function oneOf<T extends string>(
   return allowed.includes(value as T) ? (value as T) : fallback
 }
 
+/** URL params for `f`. Anything at its default value is left out to keep the URL short. */
+function toEntries(f: PlayersQuery): [string, string][] {
+  const entries: [string, string][] = [
+    ['q', f.q],
+    ['status', f.status],
+    ['vip', f.vipTier],
+    ['country', f.country],
+    ['sort', f.sort === DEFAULT_FILTERS.sort ? '' : f.sort],
+    ['order', f.order === DEFAULT_FILTERS.order ? '' : f.order],
+    ['page', f.page === 1 ? '' : String(f.page)],
+  ]
+  return entries.filter(([, v]) => v !== '')
+}
+
 /**
  * The Players list filters, stored in the URL (?q=fox&status=Active&page=2)
  * so they survive a reload and can be shared as a link.
@@ -59,30 +73,28 @@ export function usePlayerFilters() {
   const setFilters = useCallback(
     (patch: Partial<PlayersQuery>) => {
       const next = { ...filters, page: 1, ...patch }
-      const entries: [string, string][] = [
-        ['q', next.q],
-        ['status', next.status],
-        ['vip', next.vipTier],
-        ['country', next.country],
-        ['sort', next.sort === DEFAULT_FILTERS.sort ? '' : next.sort],
-        ['order', next.order === DEFAULT_FILTERS.order ? '' : next.order],
-        ['page', next.page === 1 ? '' : String(next.page)],
-      ]
-      // Keep the URL short: leave out anything at its default value.
       // Typing in search replaces the history entry instead of adding one per keystroke.
-      setParams(
-        entries.filter(([, v]) => v !== ''),
-        { replace: 'q' in patch },
-      )
+      setParams(toEntries(next), { replace: 'q' in patch })
     },
     [filters, setParams],
   )
 
   const clearFilters = useCallback(() => setParams({}), [setParams])
 
+  /** Open a saved view. It goes through the URL, so old values are checked like any other link. */
+  const applySearch = useCallback(
+    (search: string) => setParams(new URLSearchParams(search)),
+    [setParams],
+  )
+
+  // The current view for saving; a view always opens on its first page.
+  const search = new URLSearchParams(
+    toEntries({ ...filters, page: 1 }),
+  ).toString()
+
   const isFiltered = Boolean(
     filters.q || filters.status || filters.vipTier || filters.country,
   )
 
-  return { filters, setFilters, clearFilters, isFiltered }
+  return { filters, setFilters, clearFilters, applySearch, search, isFiltered }
 }

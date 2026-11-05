@@ -33,7 +33,9 @@ players, transactions, limits, 6 casino + 5 sport bonuses) and discards your edi
   `exactOptionalPropertyTypes`, `verbatimModuleSyntax`), Vite
 - Redux Toolkit + **RTK Query** for server state (cache, tags, invalidation)
 - React Router data router; route titles live in `handle`
-- Zustand (UI preferences), React Hook Form + Zod (forms): installed, used from T5/T6
+- Zustand for UI preferences of this browser (theme, columns, saved views), persisted
+  to localStorage; server data stays in RTK Query
+- React Hook Form + Zod (forms): installed, used from T6
 - SCSS modules; colours are CSS variables, shared blocks are mixins
 - json-server 0.17.4 as the fake backend
 
@@ -45,7 +47,7 @@ src/
   features/
     players/  api/ (RTK Query endpoints), hooks/, components/, pages/
     session/  role of the signed-in user
-  shared/     baseApi, useDebounce, formatters, small UI (StatusPill, RiskBar…), styles
+  shared/     baseApi, uiStore, useDebounce, formatters, small UI (StatusPill…), styles
   types/      domain models: Player, Transaction, Limits, Bonus, Assignment, AuditEntry
 scripts/seed.mjs   generates db.json
 ```
@@ -58,5 +60,6 @@ Code is grouped by feature, so everything about players lives in one folder.
 - [x] **T1** Setup: strict TS, `@/` alias, domain types, mixins, json-server, store, layout
 - [x] **T2** Players list: RTK Query, filters/sort/page in the URL, 300 ms debounced
       search, loading skeleton, empty and error states, previous page stays visible
-- [ ] T3 Player profile · T4 Change status · T5 Zustand preferences · T6 Limits form
+- [x] **T5** UI preferences: Zustand store with persist, theme, column picker, saved views
+- [ ] T3 Player profile · T4 Change status · T6 Limits form
 - [ ] T7–T9 Bonuses · T10 Tests and deploy

@@ -1,28 +1,9 @@
-import { Link, useNavigate } from 'react-router'
-import { formatDate, formatEur } from '@/shared/lib/format'
-import { RiskBar } from '@/shared/ui/RiskBar'
-import { StatusPill } from '@/shared/ui/StatusPill'
-import { VipChip } from '@/shared/ui/VipChip'
+import { useNavigate } from 'react-router'
+import { useUiStore } from '@/shared/store/uiStore'
 import type { Player } from '@/types'
 import type { PlayerSortKey, PlayersQuery } from '../api/playersApi'
+import { PLAYER_COLUMNS } from './playerColumns'
 import styles from './PlayersTable.module.scss'
-
-interface Column {
-  label: string
-  /** Server field to sort by; VIP has none because tiers do not sort alphabetically. */
-  sort?: PlayerSortKey
-  align?: 'right'
-}
-
-const COLUMNS: Column[] = [
-  { label: 'Player', sort: 'username' },
-  { label: 'Status', sort: 'status' },
-  { label: 'Country', sort: 'country' },
-  { label: 'VIP' },
-  { label: 'Balance', sort: 'balance', align: 'right' },
-  { label: 'Risk', sort: 'riskScore' },
-  { label: 'Registered', sort: 'registeredAt' },
-]
 
 // Numbers and dates are most useful biggest/newest first.
 const DESC_FIRST: PlayerSortKey[] = ['balance', 'riskScore', 'registeredAt']
@@ -44,6 +25,10 @@ export function PlayersTable({
   stale,
 }: PlayersTableProps) {
   const navigate = useNavigate()
+  const hiddenColumns = useUiStore((s) => s.hiddenColumns)
+  const columns = PLAYER_COLUMNS.filter(
+    (c) => c.id === 'player' || !hiddenColumns.includes(c.id),
+  )
 
   const toggleSort = (key: PlayerSortKey) => {
     if (key === sort) onSort({ sort, order: order === 'asc' ? 'desc' : 'asc' })
@@ -55,11 +40,11 @@ export function PlayersTable({
       <table className={styles.table} aria-busy={stale} data-stale={stale}>
         <thead>
           <tr>
-            {COLUMNS.map((col) => {
+            {columns.map((col) => {
               const active = col.sort === sort
               return (
                 <th
-                  key={col.label}
+                  key={col.id}
                   scope="col"
                   className={col.align === 'right' ? styles.right : undefined}
                   aria-sort={
@@ -89,31 +74,21 @@ export function PlayersTable({
         </thead>
         <tbody>
           {players.map((p) => (
-            // The whole row opens the profile; the username link keeps it keyboard reachable.
             <tr key={p.id} onClick={() => navigate(`/players/${p.id}`)}>
-              <td>
-                <span className={styles.who}>
-                  <Link
-                    to={`/players/${p.id}`}
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    {p.username}
-                  </Link>
-                  <small className="mono">{p.id}</small>
-                </span>
-              </td>
-              <td>
-                <StatusPill status={p.status} />
-              </td>
-              <td>{p.country}</td>
-              <td>
-                <VipChip tier={p.vipTier} />
-              </td>
-              <td className={styles.right}>{formatEur(p.balance)}</td>
-              <td>
-                <RiskBar score={p.riskScore} />
-              </td>
-              <td className={styles.muted}>{formatDate(p.registeredAt)}</td>
+              {columns.map((col) => (
+                <td
+                  key={col.id}
+                  className={
+                    col.align === 'right'
+                      ? styles.right
+                      : col.muted
+                        ? styles.muted
+                        : undefined
+                  }
+                >
+                  {col.cell(p)}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>

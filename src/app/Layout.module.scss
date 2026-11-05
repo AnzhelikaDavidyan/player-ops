@@ -157,6 +157,12 @@
   }
 }
 
+.topActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .sync {
   display: inline-flex;
   align-items: center;

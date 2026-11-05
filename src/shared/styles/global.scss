@@ -1,5 +1,5 @@
 // Design tokens from the PlayerOps UX canvas. Dark values apply with the OS
-// setting, or when <html data-theme="dark"> is set (theme toggle comes in T5).
+// setting, or when uiStore sets <html data-theme="dark">.
 :root {
   --bg: #f2f5f3;
   --surface: #ffffff;
